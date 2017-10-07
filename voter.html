@@ -1,0 +1,41 @@
+<html> 
+
+<head>
+<script src="voter.js"> </script>
+<title>
+Voter Registration Project
+</title>
+</head>
+
+<body>
+<p>
+Hello!
+</p>
+
+First name: <textarea rows="1" cols="50" id="firstname"></textarea><br>
+Last name: <textarea rows="1" cols="50" id="lastname"></textarea><br>
+Address: <textarea rows="1" cols="50" id="address"></textarea><br>
+City: <textarea rows="1" cols="50" id="city"></textarea><br>
+State: <textarea rows="1" cols="50" id="state"></textarea><br>
+Zipcode: <textarea rows="1" cols="50" id="zipcode"></textarea><br>
+Social Security: <textarea rows="1" cols="50" id="social_security"></textarea><br>
+Email: <textarea rows="1" cols="50" id="email"></textarea><br>
+Phone: <textarea rows="1" cols="50" id="phone"></textarea><br>
+
+<br>
+
+<button onclick="register(
+	getValue('firstname'),
+	getValue('lastname'),
+	getValue('address'),
+	getValue('city'),
+	getValue('state'),
+	getValue('zipcode'),
+	getValue('social_security'),
+	getValue('email'),
+	getValue('phone'),
+	)">Register</button><br>
+
+</body>
+
+</html>
